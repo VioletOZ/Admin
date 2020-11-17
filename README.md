@@ -1,6 +1,7 @@
 # Admin
 
 운영관리 페이지
+
 Rails version: 6.0.3.4
 Ruby version: ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
 
