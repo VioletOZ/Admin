@@ -3,6 +3,7 @@
 운영관리 페이지
 
 Rails version: 6.0.3.4
+
 Ruby version: ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
 
 # 설치방법
@@ -11,13 +12,18 @@ Ruby version: ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
 아래의 명령어는 모두 RubyMine 터미널에서 진행하도록한다.
 
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 
+
 sudo apt update
+
 sudo apt install git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev nodejs yarn
 
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 환경변수에 rbenv 를 추가해준다.
