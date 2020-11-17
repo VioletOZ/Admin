@@ -1,8 +1,8 @@
 # Admin
+
 운영관리 페이지
 
 
-===============================
 # 설치방법
 
 
@@ -49,11 +49,14 @@ rails server
 https://localhost:3000 으로 이동
 
 
-============================
 # 주의사항
 
 신규 설치도중에 Webpacker configuration file not found /mnt/c/Project/untitled/config/webpacker.yml 와 같은 에러가 날경우
 
+Gemfile.lock 파일안의 webpacker 버전을 낮추고 webpacket:install 을 재실행한다.
+webpacker (4.2.1)  ->  webpacker (4.0.7)
+
+또는 
 bundle exec rails webpacker:install
 
 
